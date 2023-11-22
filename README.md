@@ -1,6 +1,6 @@
 # Google - Isolated Sign Language Recognition
 
-Attempt at Google's competitiom on [Isolated Sign Language Recognition](https://www.kaggle.com/competitions/asl-signs) hosted on Kaggle.
+Attempt at Google's competition on [Isolated Sign Language Recognition](https://www.kaggle.com/competitions/asl-signs) hosted on Kaggle.
 
 Download the datasets from following links:
 
@@ -10,7 +10,7 @@ Download the datasets from following links:
 
 [3] [ASL Pretrained](https://www.kaggle.com/datasets/bishwashk/asl-pretrained)
 
-The goal of the competition was to classify isolated American Sign Language (ASL) signs. We were create a TensorFlow Lite model trained on labeled landmark data extracted using the MediaPipe Holistic Solution.
+The goal of the competition was to classify isolated American Sign Language (ASL) signs. We were to create a TensorFlow Lite model trained on labeled landmark data extracted using the MediaPipe Holistic Solution.
 
 I first attempted to create a model with pytorch. The training of the model worked well but there was error while converting the model into tensorflow lite model.
 
